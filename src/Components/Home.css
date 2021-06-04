@@ -1,0 +1,228 @@
+.wrapper {
+  
+    display: grid;
+    grid-template-columns: repeat(5, 1.5fr);
+    grid-auto-rows: minmax(40px, auto);
+    column-gap: 20px;
+    z-index: auto;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 0%;
+
+}
+
+.row1coloum1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+
+}
+
+.mockup{
+    float: left;
+    margin-top: 15%;
+    margin-left: 17%;
+    width:78%;
+}
+.row1coloum2{
+   
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+
+} 
+
+.title{
+    font-size: 2.25rem;
+    margin-bottom: 4%;
+    color: white;
+    float: center;
+    margin-top: 55%;
+    float: right;
+    margin-left: 7%;
+    font-family: dinMedium;
+    font-weight: bold;
+}
+.download{
+
+    font-weight: bold;
+font-size: 15px;
+color:white;
+    float: left;
+    margin-left:5% ;
+height: 38px;
+width: 234px;
+background-color: #eabb17;
+border: none;
+border-radius: 15px;
+font-family: dinLight;
+
+
+
+}
+
+.downloadDiv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 85%;
+}
+.playBtn{
+    width:36px;
+    height: 36px;
+    float: right;
+}
+
+.knowUs{
+   width: 36%;
+   margin-left: 70px;
+    margin-top :3px;
+    font-family: dinLight;
+}
+.subtitle{
+
+    font-size: 1.1rem;
+    margin-bottom: 4%;
+    color: white;
+    float: center;
+    margin-top: 0%;
+    float: left;
+    margin-left: 5%;
+    font-weight: lighter;
+    text-align: right;
+    font-family: dinLight;
+}
+
+.soicialMediaItem{
+margin-bottom: 30px;
+}
+
+.socialmedia{
+ float: right;
+  margin-top: 83%;
+}
+
+.videoLink {
+ 
+    margin-right: 0px;
+    text-align: right;
+    color: white;
+    text-decoration: none;
+
+}
+
+
+@media (max-width: 1366px) {
+    .wrapper {
+        margin-top: 15%;
+    }
+
+    .row1coloum1{
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    
+    }
+.mockup{
+    margin-right: auto;
+    height: 24rem;
+    margin-top: 15%;
+    margin-left: auto;
+    float:none;
+    width: auto;
+}
+    .row1coloum2{
+   
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    
+    } 
+    .title{
+        text-align: center;
+        font-size: 2.0rem;
+        margin-top: 2%;
+        float: none;
+        margin-left:0%;
+    }
+    .subtitle{
+    margin-left: 7%;
+    margin-right: 7%;
+    font-size: 1.3rem;
+    }
+    .downloadDiv{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+
+    }
+    .knowUs{
+        width: 35%;
+        margin-left: auto;
+   
+     }
+
+    }
+    
+    
+    @media (max-width: 768px) {
+      /*  .wrapper {
+             margin-top: 14px;
+          
+         }
+    .checked{
+        margin-top:0px
+    
+        }
+    .unchecked{
+        margin-top:0px
+            }
+        
+    .infected{
+         margin-top:0px
+            }*/
+        }
+    
+        @media (max-width: 400px) {
+           /* font-size: 1.125rem;*/
+   
+           .title{
+
+            font-size: 1.125rem;  
+            margin-top: 0%;        
+        }
+
+        .subtitle{
+            font-size: .875rem;
+            margin-left: 0%;
+        }
+
+        .marginTop50{
+            margin-top: 50px;
+        }
+
+        .download{
+            width: 270px;
+            margin-right: 10%;
+            margin-top: 5%;
+        }
+
+        .downloadDiv{
+            width: 100%;
+        }
+
+        .knowUs{
+            margin-top: 5%;
+
+        }
+
+        .videoLink {
+            display: none;
+        }
+        }
+       

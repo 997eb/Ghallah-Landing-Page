@@ -1,0 +1,68 @@
+.wrapperSocialMedia {
+  
+    display: grid;
+    grid-template-columns: repeat(3, 1.5fr);
+    grid-auto-rows: minmax(40px, auto);
+    column-gap: 10px;
+    z-index: auto;
+    margin-top: 2%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0%;
+    width: 15%;
+
+}
+
+.socialR1C1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+
+.socialR1C2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.socialR1C3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+
+.bac{
+    margin-top: -0.4%;
+    height: 200px;
+    background-color: #F8FAFC;
+}
+
+.up{
+    text-align: center;
+}
+
+.copyRight{
+    margin-top: 3%;
+    font-size: x-small;
+}
+
+@media (max-width: 400px) {
+.bac {
+    margin-top: -1.4%;
+}
+
+.wrapperSocialMedia {
+
+    width:50%;
+    margin-top: 10%;
+}
+
+.cr1c2{
+margin-top: 30%;
+}
+}

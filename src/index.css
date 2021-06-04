@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: dinMedium , 'sans-serif';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@font-face {
+  font-family: dinBold;
+  src: url(../src/fonts/din-bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: dinLight;
+  src: url(../src//fonts//din-light.ttf);
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: dinMedium;
+  src: url(../src//fonts//din-medium.ttf);
+  font-weight: normal;
+}

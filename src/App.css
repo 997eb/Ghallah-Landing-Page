@@ -1,0 +1,154 @@
+.section{
+  min-height: 100vh;
+  min-width: 320px;
+  display: flex;
+  margin-top: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  /*justify-content: center;*/
+  text-align: center;
+  background-image: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+}
+
+.homeSection{
+  margin-top: -80px;
+  /*background-color: #f9f9f9;*/
+  background-color:#367a3e;
+}
+
+.aboutSection{
+
+  /*background-color: #333;*/
+}
+
+.experienceSection{
+ 
+
+}
+.skillsSection{
+}
+
+.contactSection{
+ /* background-color:#F8FAFC;*/
+}
+
+
+@media (max-width: 1366px) {
+  .section{
+  min-height: 50vh;
+}
+  /* 
+  .wrapper {
+        grid-auto-rows: minmax(20px, auto);
+        row-gap: 1%;
+      
+      }
+  .row1coloum1{
+      grid-column-start: 1;
+      grid-column-end: 7;
+      grid-row-start: 1;
+      grid-row-end: 1;
+  }
+  
+  .row1coloum2{
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 2;
+      grid-row-end: 2;
+  }
+  .row1coloum3{
+  
+      grid-column-start: 3;
+      grid-column-end: 5;
+      grid-row-start: 2;
+      grid-row-end: 2;
+  } 
+  .row1coloum4{
+  
+      grid-column-start: 5;
+      grid-column-end: 7;
+      grid-row-start: 2;
+      grid-row-end: 2;
+  }
+  
+  .row2coloum1{
+  
+      grid-column-start: 1;
+      grid-column-end: 7;
+      grid-row-start: 4;
+      grid-row-end: 4;
+  }
+  
+  .row2coloum2{
+  
+      grid-column-start: 4;
+      grid-column-end: 7;
+      grid-row-start: 3;
+      grid-row-end: 3;
+  
+  }
+  
+  .row3coloum1 {
+  
+      grid-column-start: 1;
+      grid-column-end: 7;
+      grid-row-start: 5;
+      grid-row-end: 5;
+  }
+  
+  .row3coloum2 {
+       grid-column-start: 1;
+       grid-column-end:4;
+       grid-row-start: 3;
+       grid-row-end: 3;
+  
+   }*/
+  }
+  
+  
+  @media (max-width: 768px) {
+    /*  .wrapper {
+           margin-top: 14px;
+        
+       }
+  .checked{
+      margin-top:0px
+  
+      }
+  .unchecked{
+      margin-top:0px
+          }
+      
+  .infected{
+       margin-top:0px
+          }*/
+      }
+  
+      @media (max-width: 400px) {
+        .section{
+            min-height: 90vh;
+          }
+     /* .row1coloum2 {
+          
+          margin-top:14px;
+       } 
+       .row1coloum3 {
+          
+          margin-top:14px;
+       } 
+       .row1coloum4 {
+          
+          margin-top:14px;
+       } 
+  */
+      }
+     
