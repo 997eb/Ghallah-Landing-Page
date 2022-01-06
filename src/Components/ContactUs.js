@@ -23,7 +23,10 @@ export default class Contact extends Component {
 }
 
 handleSubmit(e) {
-  
+
+  if (this.state.EmailAddress != "" & this.state.FullName != "" & 
+  this.state.PhoneNumber != "" & this.state.message != "") {
+
   fetch('https://ghallahstagingapi.herokuapp.com/api/Lead', {
     method: "POST",
     headers: {
@@ -40,9 +43,10 @@ handleSubmit(e) {
       console.log(resp)
       if (resp.success == true) {
           Swal.fire(
-            'Success!',
-            'send',
-            'success'
+            'تم الارسال بنجاح',
+            '',
+            'success',
+
         )
         } else {
           Swal.fire({
@@ -57,7 +61,19 @@ handleSubmit(e) {
     })
 })
 e.preventDefault();
+  }
 
+  else {
+    Swal.fire({
+      title: 'خطأ ',
+      text: 'من فضلك املأ جميع الحقول',
+      icon: 'error',
+      confirmButtonText: 'حاول مجدداً',
+      confirmButtonColor: "#808080",   
+
+    })
+    e.preventDefault();
+  }
 }
 
   render() {
@@ -105,7 +121,6 @@ e.preventDefault();
   />
 
   <button class="sendButton">ارسال</button>
-
 </form>
         </div>
         <div className="cr1c2">

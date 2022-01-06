@@ -28,7 +28,7 @@ const Home = () => {
 <p className="subtitle" >مهمة غلّة هي تحسين العمليات الزراعية باستخدام التقنيات التي تساعد 
 على توفير الوقت والجهد وتساعد في زيادة نسبة إنتاجية التمور</p>
 <div className="downloadDiv"> 
-<span className="knowUs"><a href="#" className = "videoLink" ><span >تعرف على نظام غلة
+<span className="knowUs"><a href="https://www.youtube.com/watch?v=5MgHiTKDPwM" className = "videoLink" ><span >تعرف على نظام غلة
 </span>
 </a> <img src={playButton} alt="play button" class="playBtn"/></span>
 <button className="download" onClick={ScrollToDownload} type="button">حمل التطبيق</button> 

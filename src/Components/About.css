@@ -49,19 +49,17 @@
 } 
 
 .details{
-    color : #22292f;
-    opacity: 50%;
+    color : #717171;
     margin-right: 10%;
     margin-left: 10%;
     font-size: .875rem;
 }
 
 .details2{
-    color : #22292f;
-    opacity: 50%;
+    color : #717171;
     margin-right: 17%;
     margin-left: 17%;
-    font-size: .75rem;
+    font-size: .875rem;
 }
 
 .row2coloum2{
@@ -166,7 +164,7 @@ width: 373px;
 }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
 
     .row1{
         padding-top: 32%;

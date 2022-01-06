@@ -1,6 +1,6 @@
 import * as React from "react";
 import './DownloadApp.css'
-import amjad from '../assets/amjad.png'
+import amjad from '../assets/amjad2.png'
 import abeer from '../assets/abeer.jpg'
 import duaa from '../assets/duaa.jpg'
 import moh from '../assets/moha.jpg'
